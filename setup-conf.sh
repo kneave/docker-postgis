@@ -8,8 +8,7 @@ source /env-data.sh
 cat $CONF.template > $CONF
 
 cat >> $CONF <<EOF
-wal_level = hot_standby
+wal_level = logical
 max_wal_senders = $PG_MAX_WAL_SENDERS
 wal_keep_segments = $PG_WAL_KEEP_SEGMENTS
-hot_standby = on
 EOF
