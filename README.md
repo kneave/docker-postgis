@@ -1,10 +1,10 @@
 # docker-postgis
 
-
+This is a modified version, brantch 10.0-2.4 is configured for logical replication.  The example isn't updated yet however.
 
 A simple docker container that runs PostGIS
 
-Visit our page on the docker hub at: https://registry.hub.docker.com/u/kartoza/postgis/
+Visit our page on the docker hub at: https://registry.hub.docker.com/u/kneave/postgis/
 
 There are a number of other docker postgis containers out there. This one
 differentiates itself by:
